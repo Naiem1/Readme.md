@@ -39,7 +39,9 @@ ___
 * item 2
 * item 3
   * Nested Item 1
-  * Nested Item 
+  * Nested Item 2
+    - inner number 
+      - inner number
   
 - item 1
 - item 2
@@ -51,7 +53,7 @@ ___
 <!-- OL -->
 1. Item 1
      1. Nested Item 1
-     1. Nested Item 2
+     2. Nested Item 2
 2. Item 2
 3. Item 3
 4. item 4
@@ -98,5 +100,58 @@ ___
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
+
+
+<!-- ===== -->
+
+# Learn-Github
+## sub headings
+just a simple repo for learning the basic of GitHub.
+
+more text with two line breaks between.
+
+<!-- list -->
+
+  + first time
+  + second time
+  + third time
+    + indented
+      1. inner number
+
+
+<!-- links -->
+
+[This is the description] (https://www.github.com)
+
+<!-- inline code -->
+This is paragraph has some `variable` inline code.
+
+<!-- inline code block -->
+```html
+<p>A paragraph example</p>
+```
+
+```javascript
+let num = Math.random();
+```
+
+<!-- Images -->
+
+![alt text](https://picsum.photos/300/300)
+
+some paragraph with text
+> blockquote text below the paragraph with text
+
+
+<!-- table -->
+| heading | header | head |
+| ------- | ------ |
+| content | more content | text |
+| more | more | more |
+
+
+This being *created* on a **Friday**
+
+
 
 
